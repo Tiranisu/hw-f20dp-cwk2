@@ -1,0 +1,37 @@
+*.pdf
+
+# Haskell stuff
+.stack-work/
+*.png
+*~
+*.html
+*#
+#*
+*.lock
+*_flymake.hs
+*.eventlog
+*.hp
+*.prof
+*.csv
+*.dyn_hi
+*.dyn_o
+cache/
+package.conf.inplace/
+setup-conf
+dist-newstyle
+*.tar.gz
+
+#OS X specific files
+.DS_store
+
+# any binaries
+sum_totient
+sumtotient
+sumTotient
+haskell-totient
+totientMPI
+totientMPIReduce
+
+# any possible generated build directories
+build
+bin
